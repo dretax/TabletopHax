@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4dcad378-04f0-49aa-a2b4-9eba0d16316c" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tabletopatcher/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="67" column="16" lean-forward="true" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+              <folding>
+                <marker date="1545607868680" expanded="false" signature="6:108" ph="..." />
+                <marker date="1545607868680" expanded="true" signature="134:4329" ph="{...}" />
+                <marker date="1545607868680" expanded="true" signature="163:4327" ph="{...}" />
+                <marker date="1545607868680" expanded="true" signature="350:4321" ph="{...}" />
+                <marker date="1545607868680" expanded="true" signature="376:571" ph="{...}" />
+                <marker date="1545607868680" expanded="true" signature="604:664" ph="{...}" />
+                <marker date="1545607868680" expanded="true" signature="681:3823" ph="{...}" />
+                <marker date="1545607868680" expanded="true" signature="1127:1202" ph="{...}" />
+                <marker date="1545607868680" expanded="true" signature="1276:1503" ph="{...}" />
+                <marker date="1545607868680" expanded="true" signature="1388:1485" ph="{...}" />
+                <marker date="1545607868680" expanded="true" signature="1574:1649" ph="{...}" />
+                <marker date="1545607868680" expanded="true" signature="1708:1784" ph="{...}" />
+                <marker date="1545607868680" expanded="true" signature="3856:3927" ph="{...}" />
+                <marker date="1545607868680" expanded="true" signature="3954:4068" ph="/* &lt;LoadDLCAssetBundleFromDisk&gt;c__Iterator2 ... */" />
+                <marker date="1545607868680" expanded="true" signature="4097:4187" ph="{...}" />
+                <marker date="1545607868680" expanded="true" signature="4220:4280" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Library.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DLCDreTaX/Library.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="50" column="51" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="51" />
+              <folding>
+                <marker date="1545607858065" expanded="false" signature="6:138" ph="..." />
+                <marker date="1545607858065" expanded="true" signature="159:4588" ph="{...}" />
+                <marker date="1545607858065" expanded="true" signature="186:4586" ph="{...}" />
+                <marker date="1545607858065" expanded="true" signature="271:1384" ph="{...}" />
+                <marker date="1545607858065" expanded="true" signature="1448:1493" ph="{...}" />
+                <marker date="1545607858065" expanded="true" signature="1575:1810" ph="{...}" />
+                <marker date="1545607858065" expanded="true" signature="1885:4580" ph="{...}" />
+                <marker date="1545607858065" expanded="true" signature="2095:2242" ph="{...}" />
+                <marker date="1545607858065" expanded="true" signature="2259:4570" ph="{...}" />
+                <marker date="1545607858065" expanded="true" signature="2441:2825" ph="/* if (!SteamManager.IsSubscribedApp(info.AppId)) ... */" />
+                <marker date="1545607858065" expanded="true" signature="2867:3056" ph="{...}" />
+                <marker date="1545607858065" expanded="true" signature="3139:3330" ph="{...}" />
+                <marker date="1545607858065" expanded="true" signature="3398:4536" ph="{...}" />
+                <marker date="1545607858065" expanded="true" signature="3552:3713" ph="{...}" />
+                <marker date="1545607858065" expanded="true" signature="3742:4514" ph="{...}" />
+                <marker date="1545607858065" expanded="true" signature="3927:4164" ph="{...}" />
+                <marker date="1545607858065" expanded="true" signature="4255:4488" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ILPatcher.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tabletopatcher/Patcher/ILPatcher.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Logger.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tabletopatcher/Patcher/Logger.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1545603411871" expanded="true" signature="27:809" ph="{...}" />
+                <marker date="1545603411871" expanded="false" signature="38:64" ph="..." />
+                <marker date="1545603411871" expanded="true" signature="94:807" ph="{...}" />
+                <marker date="1545603411871" expanded="true" signature="129:237" ph="{...}" />
+                <marker date="1545603411871" expanded="true" signature="176:231" ph="{...}" />
+                <marker date="1545603411871" expanded="true" signature="277:466" ph="{...}" />
+                <marker date="1545603411871" expanded="true" signature="508:803" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Tabletopatcher/Patcher/TypeDefinitionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tabletopatcher/Patcher/CommandLine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tabletopatcher/Patcher/ILPatcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tabletopatcher/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tabletopatcher/Patcher/Logger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DLCDreTaX/Library.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tabletopatcher/Patcher/MethodDefinitionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tabletopatcher/Patcher/FieldDefinitionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Tabletopatcher/Patcher/CommandLine.cs" />
+        <option value="$PROJECT_DIR$/Tabletopatcher/Patcher/ILPatcher.cs" />
+        <option value="$PROJECT_DIR$/Tabletopatcher/Patcher/Program.cs" />
+        <option value="$PROJECT_DIR$/Tabletopatcher/Patcher/FieldDefinitionExtensions.cs" />
+        <option value="$PROJECT_DIR$/Tabletopatcher/Patcher/MethodDefinitionExtensions.cs" />
+        <option value="$PROJECT_DIR$/DLCDreTaX/Class1.cs" />
+        <option value="$PROJECT_DIR$/DLCDreTaX/Library.cs" />
+        <option value="$PROJECT_DIR$/Tabletopatcher/Program.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Tabletopatcher (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Tabletopatcher (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DLCDreTaX" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Tabletopatcher (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DLCDreTaX" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Tabletopatcher (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DLCDreTaX" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assemblies" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Tabletopatcher (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Tabletopatcher" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DLCDreTaX/Assembly-CSharp.dll" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach Unity.Attach to Unity Editor" />
+      <item itemvalue=".NET Project.Default" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4dcad378-04f0-49aa-a2b4-9eba0d16316c" name="Default" comment="" />
+      <created>1545603354757</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545603354757</updated>
+      <workItem from="1545603369112" duration="2619000" />
+      <workItem from="1545605992242" duration="1379000" />
+      <workItem from="1545607613194" duration="577000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4575000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="7" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" isUnityUI="false" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Tabletopatcher/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="64" column="79" selection-start-line="64" selection-start-column="79" selection-end-line="64" selection-end-column="79" />
+          <folding>
+            <marker date="1545607868680" expanded="false" signature="6:108" ph="..." />
+            <marker date="1545607868680" expanded="true" signature="134:4329" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="163:4327" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="350:4321" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="376:571" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="604:664" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="681:3823" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="1127:1202" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="1276:1503" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="1388:1485" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="1574:1649" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="1708:1784" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="3856:3927" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="3954:4068" ph="/* &lt;LoadDLCAssetBundleFromDisk&gt;c__Iterator2 ... */" />
+            <marker date="1545607868680" expanded="true" signature="4097:4187" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="4220:4280" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DLCDreTaX/Library.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+          <folding>
+            <marker date="1545607858065" expanded="false" signature="6:138" ph="..." />
+            <marker date="1545607858065" expanded="true" signature="159:4588" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="186:4586" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="271:1384" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="1448:1493" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="1575:1810" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="1885:4580" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="2095:2242" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="2259:4570" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="2441:2825" ph="/* if (!SteamManager.IsSubscribedApp(info.AppId)) ... */" />
+            <marker date="1545607858065" expanded="true" signature="2867:3056" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="3139:3330" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="3398:4536" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="3552:3713" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="3742:4514" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="3927:4164" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="4255:4488" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tabletopatcher/Patcher/ILPatcher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tabletopatcher/Patcher/Logger.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1545603411871" expanded="true" signature="27:809" ph="{...}" />
+            <marker date="1545603411871" expanded="false" signature="38:64" ph="..." />
+            <marker date="1545603411871" expanded="true" signature="94:807" ph="{...}" />
+            <marker date="1545603411871" expanded="true" signature="129:237" ph="{...}" />
+            <marker date="1545603411871" expanded="true" signature="176:231" ph="{...}" />
+            <marker date="1545603411871" expanded="true" signature="277:466" ph="{...}" />
+            <marker date="1545603411871" expanded="true" signature="508:803" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tabletopatcher/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <marker date="1545607868680" expanded="false" signature="6:108" ph="..." />
+            <marker date="1545607868680" expanded="true" signature="134:4329" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="163:4327" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="350:4321" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="376:571" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="604:664" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="681:3823" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="1127:1202" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="1276:1503" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="1388:1485" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="1574:1649" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="1708:1784" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="3856:3927" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="3954:4068" ph="/* &lt;LoadDLCAssetBundleFromDisk&gt;c__Iterator2 ... */" />
+            <marker date="1545607868680" expanded="true" signature="4097:4187" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="4220:4280" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tabletopatcher/Patcher/ILPatcher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tabletopatcher/Patcher/Logger.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1545603411871" expanded="true" signature="27:809" ph="{...}" />
+            <marker date="1545603411871" expanded="false" signature="38:64" ph="..." />
+            <marker date="1545603411871" expanded="true" signature="94:807" ph="{...}" />
+            <marker date="1545603411871" expanded="true" signature="129:237" ph="{...}" />
+            <marker date="1545603411871" expanded="true" signature="176:231" ph="{...}" />
+            <marker date="1545603411871" expanded="true" signature="277:466" ph="{...}" />
+            <marker date="1545603411871" expanded="true" signature="508:803" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DLCDreTaX/Library.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="43" />
+          <folding>
+            <marker date="1545607858065" expanded="false" signature="6:138" ph="..." />
+            <marker date="1545607858065" expanded="true" signature="159:4588" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="186:4586" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="271:1384" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="1448:1493" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="1575:1810" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="1885:4580" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="2095:2242" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="2259:4570" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="2441:2825" ph="/* if (!SteamManager.IsSubscribedApp(info.AppId)) ... */" />
+            <marker date="1545607858065" expanded="true" signature="2867:3056" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="3139:3330" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="3398:4536" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="3552:3713" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="3742:4514" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="3927:4164" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="4255:4488" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tabletopatcher/Patcher/CommandLine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tabletopatcher/Patcher/Program.cs" />
+    <entry file="file://$PROJECT_DIR$/Tabletopatcher/Patcher/FieldDefinitionExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tabletopatcher/Patcher/MethodDefinitionExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tabletopatcher/Patcher/ILPatcher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tabletopatcher/Patcher/Logger.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1545603411871" expanded="true" signature="27:809" ph="{...}" />
+            <marker date="1545603411871" expanded="false" signature="38:64" ph="..." />
+            <marker date="1545603411871" expanded="true" signature="94:807" ph="{...}" />
+            <marker date="1545603411871" expanded="true" signature="129:237" ph="{...}" />
+            <marker date="1545603411871" expanded="true" signature="176:231" ph="{...}" />
+            <marker date="1545603411871" expanded="true" signature="277:466" ph="{...}" />
+            <marker date="1545603411871" expanded="true" signature="508:803" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DLCDreTaX/Library.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="50" column="51" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="51" />
+          <folding>
+            <marker date="1545607858065" expanded="false" signature="6:138" ph="..." />
+            <marker date="1545607858065" expanded="true" signature="159:4588" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="186:4586" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="271:1384" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="1448:1493" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="1575:1810" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="1885:4580" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="2095:2242" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="2259:4570" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="2441:2825" ph="/* if (!SteamManager.IsSubscribedApp(info.AppId)) ... */" />
+            <marker date="1545607858065" expanded="true" signature="2867:3056" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="3139:3330" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="3398:4536" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="3552:3713" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="3742:4514" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="3927:4164" ph="{...}" />
+            <marker date="1545607858065" expanded="true" signature="4255:4488" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tabletopatcher/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="67" column="16" lean-forward="true" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+          <folding>
+            <marker date="1545607868680" expanded="false" signature="6:108" ph="..." />
+            <marker date="1545607868680" expanded="true" signature="134:4329" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="163:4327" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="350:4321" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="376:571" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="604:664" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="681:3823" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="1127:1202" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="1276:1503" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="1388:1485" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="1574:1649" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="1708:1784" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="3856:3927" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="3954:4068" ph="/* &lt;LoadDLCAssetBundleFromDisk&gt;c__Iterator2 ... */" />
+            <marker date="1545607868680" expanded="true" signature="4097:4187" ph="{...}" />
+            <marker date="1545607868680" expanded="true" signature="4220:4280" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

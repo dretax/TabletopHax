@@ -1,0 +1,9 @@
+C:\Users\DreTaX\Documents\Visual Studio 2015\Projects\Tabletopatcher\DLCDreTaX\bin\Debug\DLCDreTaX.dll
+C:\Users\DreTaX\Documents\Visual Studio 2015\Projects\Tabletopatcher\DLCDreTaX\bin\Debug\DLCDreTaX.pdb
+C:\Users\DreTaX\Documents\Visual Studio 2015\Projects\Tabletopatcher\DLCDreTaX\bin\Debug\Assembly-CSharp.dll
+C:\Users\DreTaX\Documents\Visual Studio 2015\Projects\Tabletopatcher\DLCDreTaX\bin\Debug\UnityEngine.dll
+C:\Users\DreTaX\Documents\Visual Studio 2015\Projects\Tabletopatcher\DLCDreTaX\obj\Debug\DLCDreTaX.csprojAssemblyReference.cache
+C:\Users\DreTaX\Documents\Visual Studio 2015\Projects\Tabletopatcher\DLCDreTaX\obj\Debug\DLCDreTaX.csproj.CoreCompileInputs.cache
+C:\Users\DreTaX\Documents\Visual Studio 2015\Projects\Tabletopatcher\DLCDreTaX\obj\Debug\DLCDreTaX.csproj.CopyComplete
+C:\Users\DreTaX\Documents\Visual Studio 2015\Projects\Tabletopatcher\DLCDreTaX\obj\Debug\DLCDreTaX.dll
+C:\Users\DreTaX\Documents\Visual Studio 2015\Projects\Tabletopatcher\DLCDreTaX\obj\Debug\DLCDreTaX.pdb

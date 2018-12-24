@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tabletopatcher", "Tabletopatcher\Tabletopatcher.csproj", "{9FDB0B51-4AB9-48DD-ABCC-D94475CC4CF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLCDreTaX", "DLCDreTaX\DLCDreTaX.csproj", "{12489020-E52A-4FC9-B1DB-86DFB2EDB3A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FDB0B51-4AB9-48DD-ABCC-D94475CC4CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FDB0B51-4AB9-48DD-ABCC-D94475CC4CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FDB0B51-4AB9-48DD-ABCC-D94475CC4CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FDB0B51-4AB9-48DD-ABCC-D94475CC4CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12489020-E52A-4FC9-B1DB-86DFB2EDB3A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12489020-E52A-4FC9-B1DB-86DFB2EDB3A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12489020-E52A-4FC9-B1DB-86DFB2EDB3A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12489020-E52A-4FC9-B1DB-86DFB2EDB3A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
