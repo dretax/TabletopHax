@@ -203,3 +203,11 @@ File name: 'C:\Users\DreTaX\Documents\Visual Studio 2015\Projects\Tabletopatcher
 [2018.12.24. 0:31] <LoadAsyncAssetBundle>c__Iterator1
 [2018.12.24. 0:31] <LoadDLCAssetBundleFromDisk>c__Iterator2
 [2018.12.24. 0:31] <CheckSale>c__Iterator3
+[19/04/13 2:47 PM] <LoadAsync>c__Iterator0
+[19/04/13 2:47 PM] <LoadAsyncAssetBundle>c__Iterator1
+[19/04/13 2:47 PM] <LoadDLCAssetBundleFromDisk>c__Iterator2
+[19/04/13 2:47 PM] <CheckSale>c__Iterator3
+[19/04/13 2:48 PM] <LoadAsync>c__Iterator0
+[19/04/13 2:48 PM] <LoadAsyncAssetBundle>c__Iterator1
+[19/04/13 2:48 PM] <LoadDLCAssetBundleFromDisk>c__Iterator2
+[19/04/13 2:48 PM] <CheckSale>c__Iterator3

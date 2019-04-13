@@ -2,4 +2,7 @@
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=9FDB0B51_002D4AB9_002D48DD_002DABCC_002DD94475CC4CF0_002Ff_003AProgram_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=12489020_002DE52A_002D4FC9_002DB1DB_002D86DFB2EDB3A7_002Ff_003ALibrary_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=9FDB0B51_002D4AB9_002D48DD_002DABCC_002DD94475CC4CF0_002Fd_003APatcher_002Ff_003AILPatcher_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
-	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=9FDB0B51_002D4AB9_002D48DD_002DABCC_002DD94475CC4CF0_002Fd_003APatcher_002Ff_003ALogger_002Ecs/@EntryIndexedValue">ForceIncluded</s:String></wpf:ResourceDictionary>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=9FDB0B51_002D4AB9_002D48DD_002DABCC_002DD94475CC4CF0_002Fd_003APatcher_002Ff_003ALogger_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:Int64 x:Key="/Default/CodeStyle/Naming/CSharpAutoNaming/AutoNamingCompletedVersion/@EntryValue">2</s:Int64>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/AutoDetectedNamingRules/=Method/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/AutoDetectedNamingRules/=Parameters/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String></wpf:ResourceDictionary>

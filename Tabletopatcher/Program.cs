@@ -13,6 +13,7 @@ namespace Tabletopatcher
         
         public static void Main(string[] args)
         {
+            Console.WriteLine("CIL Patcher created by DreTaX. https://github.com/dretax");
             try
             {
                 AssemblyCSharp = AssemblyDefinition.ReadAssembly("Assembly-CSharp.dll");
@@ -100,6 +101,7 @@ namespace Tabletopatcher
             {
                 Logger.Log(ex);
             }
+            Console.WriteLine("Patching complete!");
             Console.ReadKey();
         }
     }

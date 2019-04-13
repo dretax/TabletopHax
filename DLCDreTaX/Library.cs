@@ -9,7 +9,7 @@ namespace DLCDreTaX
 {
     public class Library
     {
-        public static readonly List<string> DLCS = new List<string>()
+        private static readonly List<string> DLCS = new List<string>()
         {
             "Darkrock Ventures",
             "Euphoria",
@@ -46,6 +46,8 @@ namespace DLCDreTaX
             "Pillars of Eternity - Lords of the Eastern Reach",
             "Cosmic Encounter",
             "Draco Magi",
+            "Tortuga 1667",
+            "Deck Quest",
         };
         
         public static List<string> GetOwnedDLCsFake()
@@ -56,7 +58,7 @@ namespace DLCDreTaX
         
         public static bool CanWeLoadThisDLCFake(string DLCName)
         {
-            ChatScript.LogError("xdxdddlc " + DLCName, true);
+            ChatScript.LogError("FakeDLC Load " + DLCName, true);
             return true;
             //(SteamManager.IsSubscribedApp(DLCManager.NameToDLCInfo(DLCName).AppId) || DLCManager.HostDLCs.Contains(DLCName));
         }
@@ -73,7 +75,7 @@ namespace DLCDreTaX
             else
             {
                 DLCBaseInfo info = DLCManager.NameToDLCInfo(DLCName);
-                ChatScript.LogError("xdxddddddddddddddddddddddddddddddd", true);
+                ChatScript.LogError("LoadFake Test Call.", true);
                 /*if (!SteamManager.IsSubscribedApp(info.AppId))
                 {
                     ChatScript.Log("You do not own DLC " + info.Name + ". Cannot load.", Colour.red, ChatMessageType.Game, false);
