@@ -45,5 +45,5 @@ Don't forget to buy the DLCs to support the game devs!
 * Pillars of Eternity - Lords of the Eastern Reach
 * Cosmic Encounter
 * Draco Magi
-* Tortuga 1667 (Untested)
-* Deck Quest (Untested)
+* Tortuga 1667
+* Deck Quest
