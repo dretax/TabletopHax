@@ -1,9 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Net.Mime;
-using UnityEngine;
-using Network = NewNet.Network;
 
 namespace DLCDreTaX
 {
@@ -58,7 +54,7 @@ namespace DLCDreTaX
         
         public static bool CanWeLoadThisDLCFake(string DLCName)
         {
-            ChatScript.LogError("FakeDLC Load " + DLCName, true);
+            Chat.LogError("FakeDLC Load " + DLCName, true);
             return true;
             //(SteamManager.IsSubscribedApp(DLCManager.NameToDLCInfo(DLCName).AppId) || DLCManager.HostDLCs.Contains(DLCName));
         }
@@ -67,52 +63,22 @@ namespace DLCDreTaX
         public static void LoadFake(DLCManager instance, string DLCName)
         {
             DLCManager.SetHostOwnedDLCs(DLCS);
-            ChatScript.LogError("Can't load. Already loading another DLC. Please wait for that to finish.", true);
-            if (instance.bLoadingDLC)
+
+            DLCWebsiteInfo dlcInfo = DLCManager.NameToDLCInfo(DLCName);
+            /*if (!SteamManager.IsSubscribedApp(dlcInfo.AppId))
             {
-                ChatScript.LogError("Can't load. Already loading another DLC. Please wait for that to finish.", true);
+                Chat.Log("You do not own DLC " + dlcInfo.Name + ". Cannot load.", Colour.red, ChatMessageType.Game,
+                    false);
+                TTSUtilities.OpenURL("http://store.steampowered.com/app/" + dlcInfo.AppId.ToString());
             }
             else
             {
-                DLCBaseInfo info = DLCManager.NameToDLCInfo(DLCName);
-                ChatScript.LogError("LoadFake Test Call.", true);
-                /*if (!SteamManager.IsSubscribedApp(info.AppId))
-                {
-                    ChatScript.Log("You do not own DLC " + info.Name + ". Cannot load.", Colour.red, ChatMessageType.Game, false);
-                    NetworkSingleton<NetworkUI>.Instance.OpenURL("http://store.steampowered.com/app/" + info.AppId.ToString());
-                }
-                else
-                {*/
-                    if (Network.isServer)
-                    {
-                        NetworkSingleton<ManagerPhysicsObject>.Instance.LoadSaveState(Json.Load<SaveState>(info.Json.text), false, true, false);
-                    }
-                    else if (NetworkSingleton<PlayerManager>.Instance.IsAdmin(-1))
-                    {
-                        NetworkSingleton<ManagerPhysicsObject>.Instance.LoadPromotedSaveState(Json.GetBson(Json.Load<SaveState>(info.Json.text)));
-                    }
-                    for (int i = 0; i < info.Expansions.Count; i++)
-                    {
-                        DLCInfo info2 = info.Expansions[i];
-                        if (!SteamManager.IsSubscribedApp(info2.AppId))
-                        {
-                            ChatScript.Log("Expansion " + info2.Name + " not owned.", ChatMessageType.Game);
-                        }
-                        else
-                        {
-                            ChatScript.Log("Expansion " + info2.Name + " loading...", ChatMessageType.Game);
-                            if (Network.isServer)
-                            {
-                                NetworkSingleton<ManagerPhysicsObject>.Instance.SpawnOffsetObjectStates(Json.Load<SaveState>(info2.Json.text).ObjectStates, Vector3.zero, true);
-                            }
-                            else if (NetworkSingleton<PlayerManager>.Instance.IsAdmin(-1))
-                            {
-                                NetworkSingleton<ManagerPhysicsObject>.Instance.SpawnOffsetJsonSaveState(Json.GetBson(Json.Load<SaveState>(info2.Json.text)), Vector3.zero);
-                            }
-                        }
-                    }
-                //}
-            }
+                
+            }*/
+            
+            Chat.Log(dlcInfo.Name + " has been haxed. Thanks & have fun.", Colour.red, ChatMessageType.Game,
+                false);
+            instance.StartCoroutine(instance.LoadSaveFile(dlcInfo));
         }
     }
 }

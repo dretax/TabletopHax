@@ -27,7 +27,7 @@ namespace Tabletopatcher
             try
             {
                 TypeDefinition DLCManager = AssemblyCSharp.MainModule.GetType("DLCManager");
-                TypeDefinition LoadDLCAssetBundleFromDisk =
+                /*TypeDefinition LoadDLCAssetBundleFromDisk =
                     DLCManager.GetNestedType("<LoadDLCAssetBundleFromDisk>c__Iterator2");
                 LoadDLCAssetBundleFromDisk.IsPublic = true;
                 LoadDLCAssetBundleFromDisk.IsSealed = true;
@@ -53,8 +53,18 @@ namespace Tabletopatcher
                 foreach (var x in DLCManager.NestedTypes)
                 {
                     Logger.Log(x.Name);
+                }*/
+
+                foreach (var x in DLCManager.Methods)
+                {
+                    x.SetPublic(true);
                 }
 
+                foreach (var x in DLCManager.Fields)
+                {
+                    x.SetPublic(true);
+                }
+                
                 MethodDefinition LoadFake = DLCDreTaX.MainModule.GetType("DLCDreTaX.Library").GetMethod("LoadFake");
                 MethodDefinition CanWeLoadThisDLCFake = DLCDreTaX.MainModule.GetType("DLCDreTaX.Library").GetMethod("CanWeLoadThisDLCFake");
                 MethodDefinition GetOwnedDLCsFake = DLCDreTaX.MainModule.GetType("DLCDreTaX.Library").GetMethod("GetOwnedDLCsFake");
