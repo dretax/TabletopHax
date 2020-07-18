@@ -44,3 +44,9 @@ Don't forget to buy the DLCs to support the game devs!
 * Draco Magi
 * Tortuga 1667
 * Deck Quest
+* Blood Rage
+* Boss Monster
+* UnEarth
+* Wingspan
+* Dungeon Drop
+* Dawn of the zeds
