@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace DLCDreTaX
 {
     public class Library
     {
-        private static readonly List<string> DLCS = new List<string>()
+        /*private static readonly List<string> DLCS = new List<string>()
         {
             "Darkrock Ventures",
             "Euphoria",
@@ -44,11 +45,12 @@ namespace DLCDreTaX
             "Draco Magi",
             "Tortuga 1667",
             "Deck Quest",
-        };
+        };*/
         
         public static List<string> GetOwnedDLCsFake()
         {
-            return DLCS;
+            List<DLCWebsiteInfo> infos = Singleton<DLCManager>.Instance.DLCWebsites;
+            return infos.Select(x => x.Name).ToList();
         }
         
         
@@ -62,7 +64,7 @@ namespace DLCDreTaX
 
         public static void LoadFake(DLCManager instance, string DLCName)
         {
-            DLCManager.SetHostOwnedDLCs(DLCS);
+            //DLCManager.SetHostOwnedDLCs(DLCS); // I don't remember if this is needed.
 
             DLCWebsiteInfo dlcInfo = DLCManager.NameToDLCInfo(DLCName);
             /*if (!SteamManager.IsSubscribedApp(dlcInfo.AppId))

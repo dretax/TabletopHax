@@ -27,6 +27,19 @@ namespace Tabletopatcher
             try
             {
                 TypeDefinition DLCManager = AssemblyCSharp.MainModule.GetType("DLCManager");
+                TypeDefinition PlayerManager = AssemblyCSharp.MainModule.GetType("PlayerManager");
+                TypeDefinition Chat = AssemblyCSharp.MainModule.GetType("Chat");
+                foreach (var x in PlayerManager.GetMethods())
+                {
+                    x.SetPublic(true);
+                }
+                
+                foreach (var x in PlayerManager.Fields)
+                {
+                    x.SetPublic(true);
+                }
+
+                Chat.GetMethod("RPC_ChatMessage").SetPublic(true);
                 /*TypeDefinition LoadDLCAssetBundleFromDisk =
                     DLCManager.GetNestedType("<LoadDLCAssetBundleFromDisk>c__Iterator2");
                 LoadDLCAssetBundleFromDisk.IsPublic = true;
