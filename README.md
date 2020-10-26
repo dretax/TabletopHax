@@ -3,6 +3,10 @@ I have decided to release one of my CIL injections to the public.
 This project is very "simple", and It is based on my Patcher work in Notulp/Fougerite.
 Don't forget to buy the DLCs to support the game devs!
 
+# Can I be banned?
+To my last reversing time Tabletop has no verifications on this at all, and they also do not implement any commercial anti-cheat.
+Short answer is: No, but It's still your responsibility.
+
 # Installation
 * Grab the latest version from the github releases, and overwrite your dlls with them.
 * The dlls are located in folder \Steam\steamapps\common\Tabletop Simulator\Tabletop Simulator_Data\Managed
