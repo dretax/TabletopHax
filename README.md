@@ -4,8 +4,9 @@ This project is very "simple", and It is based on my Patcher work in Notulp/Foug
 Don't forget to buy the DLCs to support the game devs!
 
 # Installation
-* Grab the latest version from the releases, and overwrite your dlls with them.
+* Grab the latest version from the github releases, and overwrite your dlls with them.
 * The dlls are located in folder \Steam\steamapps\common\Tabletop Simulator\Tabletop Simulator_Data\Managed
+* This build may not be up to date.
 
 # Compilation & Update (Noob guide)
 1. If the game's DLC system changed a lot, you need to update the patcher or let me know.
