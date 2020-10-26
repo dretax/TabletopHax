@@ -5,6 +5,17 @@ Don't forget to buy the DLCs to support the game devs!
 
 # Installation
 * Grab the latest version from the releases, and overwrite your dlls with them.
+* The dlls are located in folder \Steam\steamapps\common\Tabletop Simulator\Tabletop Simulator_Data\Managed
+
+# Compilation & Update (Noob guide)
+1. If the game's DLC system changed a lot, you need to update the patcher or let me know.
+2. Get Visual Studio with C# build support, open the solution (sln) file
+3. Do a verification on steam for the game. Wait for it to finish.
+4. Build the DLCDreTaX project and the Patcher aswell by right clicking on the project or the solution from the menu. Make sure to build on release and not debug. There is a small menu which allows you to change it in the middle.
+5. Upon build go to Tabletopatcher\Tabletopatcher\bin\Release. Put the game's every dll from the Managed folder here.
+6. Go to Tabletopatcher\DLCDreTaX\bin\Release and copy it to the Tabletopatcher\Tabletopatcher\bin\Release folder.
+7. Run the patcher.
+8. If all is good, copy the DLCDreTaX.dll and the Assembly-CSharp.dll to the game's Managed folder and overwrite the files.
 
 # Supports
 * Darkrock Ventures
