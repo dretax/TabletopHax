@@ -22,6 +22,8 @@ Short answer is: No, but It's still your responsibility.
 7. Run the patcher.
 8. If all is good, copy the DLCDreTaX.dll and the Assembly-CSharp.dll to the game's Managed folder and overwrite the files.
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YZEXjQg4-MnU/0.jpg)](https://www.youtube.com/watch?v=ZEXjQg4-MnU)
+
 # Supports
 * Darkrock Ventures
 * Euphoria
