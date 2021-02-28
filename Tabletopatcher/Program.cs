@@ -29,6 +29,9 @@ namespace Tabletopatcher
                 TypeDefinition DLCManager = AssemblyCSharp.MainModule.GetType("DLCManager");
                 TypeDefinition PlayerManager = AssemblyCSharp.MainModule.GetType("PlayerManager");
                 TypeDefinition Chat = AssemblyCSharp.MainModule.GetType("Chat");
+                TypeDefinition UIGridMenuGames = AssemblyCSharp.MainModule.GetType("UIGridMenuGames");
+                
+                
                 foreach (var x in PlayerManager.GetMethods())
                 {
                     x.SetPublic(true);
@@ -81,8 +84,9 @@ namespace Tabletopatcher
                 MethodDefinition LoadFake = DLCDreTaX.MainModule.GetType("DLCDreTaX.Library").GetMethod("LoadFake");
                 MethodDefinition CanWeLoadThisDLCFake = DLCDreTaX.MainModule.GetType("DLCDreTaX.Library").GetMethod("CanWeLoadThisDLCFake");
                 MethodDefinition GetOwnedDLCsFake = DLCDreTaX.MainModule.GetType("DLCDreTaX.Library").GetMethod("GetOwnedDLCsFake");
-                
-                
+                MethodDefinition GetDLCGridButtonsFake = DLCDreTaX.MainModule.GetType("DLCDreTaX.Library").GetMethod("GetDLCGridButtonsFake");
+                MethodDefinition DLCStartFake = DLCDreTaX.MainModule.GetType("DLCDreTaX.Library").GetMethod("DLCStartFake");
+
                 MethodDefinition CanWeLoadThisDLC = DLCManager.GetMethod("CanWeLoadThisDLC");
                 ILProcessor processor2 = CanWeLoadThisDLC.Body.GetILProcessor();
                 processor2.Body.Instructions.Clear();
@@ -105,6 +109,20 @@ namespace Tabletopatcher
                 processor.Body.Instructions.Add(Instruction.Create(OpCodes.Ldarg_1));
                 processor.Body.Instructions.Add(Instruction.Create(OpCodes.Call, AssemblyCSharp.MainModule.Import(LoadFake)));
                 processor.Body.Instructions.Add(Instruction.Create(OpCodes.Ret));
+                
+                MethodDefinition Start = DLCManager.GetMethod("Start");
+                ILProcessor processor5 = Start.Body.GetILProcessor();
+                processor5.Body.Instructions.Clear();
+                processor5.Body.Instructions.Add(Instruction.Create(OpCodes.Call, AssemblyCSharp.MainModule.Import(DLCStartFake)));
+                processor5.Body.Instructions.Add(Instruction.Create(OpCodes.Ret));
+                
+                MethodDefinition GetDLCGridButtons = UIGridMenuGames.GetMethod("GetDLCGridButtons");
+                ILProcessor processor4 = GetDLCGridButtons.Body.GetILProcessor();
+                processor4.Body.Instructions.Clear();
+                processor4.Body.Instructions.Add(Instruction.Create(OpCodes.Ldarg_0));
+                processor4.Body.Instructions.Add(Instruction.Create(OpCodes.Ldarg_1));
+                processor4.Body.Instructions.Add(Instruction.Create(OpCodes.Call, AssemblyCSharp.MainModule.Import(GetDLCGridButtonsFake)));
+                processor4.Body.Instructions.Add(Instruction.Create(OpCodes.Ret));
             }
             catch (Exception ex)
             {

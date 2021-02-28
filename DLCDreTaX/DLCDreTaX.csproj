@@ -42,11 +42,11 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Reference Include="Assembly-CSharp, Version=1.0.7711.30907, Culture=neutral, PublicKeyToken=null">
       <HintPath>Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Ref\Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
       <HintPath>..\Ref\System.dll</HintPath>
@@ -61,13 +61,13 @@
       <HintPath>..\Ref\System.Runtime.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Ref\UnityEngine.dll</HintPath>
+      <HintPath>UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Ref\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>.\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="Utilities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\Ref\Utilities.dll</HintPath>
+      <HintPath>.\Utilities.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
