@@ -129,21 +129,25 @@ namespace DLCDreTaX
             list.Reverse();
             return list;
         }
+
+        public static void SetKickstarterFlags()
+        {
+            SteamManager.bKickstarterGold = true;
+            SteamManager.bKickstarterPointer = true;
+        }
         
         private static object GetInstanceField(Type type, object instance, string fieldName)
         {
             BindingFlags bindFlags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic
                                      | BindingFlags.Static;
-            try
+            FieldInfo field = type.GetField(fieldName, bindFlags);
+            if (field != null)
             {
-                FieldInfo field = type.GetField(fieldName, bindFlags);
                 object v = field.GetValue(instance);
                 return v;
             }
-            catch
-            {
-                return null;
-            }
+
+            return null;
         }
 
     }

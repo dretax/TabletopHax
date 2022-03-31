@@ -30,6 +30,7 @@ namespace Tabletopatcher
                 TypeDefinition PlayerManager = AssemblyCSharp.MainModule.GetType("PlayerManager");
                 TypeDefinition Chat = AssemblyCSharp.MainModule.GetType("Chat");
                 TypeDefinition UIGridMenuGames = AssemblyCSharp.MainModule.GetType("UIGridMenuGames");
+                TypeDefinition SteamManager = AssemblyCSharp.MainModule.GetType("SteamManager");
                 
                 
                 foreach (var x in PlayerManager.GetMethods())
@@ -86,6 +87,7 @@ namespace Tabletopatcher
                 MethodDefinition GetOwnedDLCsFake = DLCDreTaX.MainModule.GetType("DLCDreTaX.Library").GetMethod("GetOwnedDLCsFake");
                 MethodDefinition GetDLCGridButtonsFake = DLCDreTaX.MainModule.GetType("DLCDreTaX.Library").GetMethod("GetDLCGridButtonsFake");
                 MethodDefinition DLCStartFake = DLCDreTaX.MainModule.GetType("DLCDreTaX.Library").GetMethod("DLCStartFake");
+                MethodDefinition SetKickstarterFlagsFake = DLCDreTaX.MainModule.GetType("DLCDreTaX.Library").GetMethod("SetKickstarterFlags");
 
                 MethodDefinition CanWeLoadThisDLC = DLCManager.GetMethod("CanWeLoadThisDLC");
                 ILProcessor processor2 = CanWeLoadThisDLC.Body.GetILProcessor();
@@ -123,6 +125,11 @@ namespace Tabletopatcher
                 processor4.Body.Instructions.Add(Instruction.Create(OpCodes.Ldarg_1));
                 processor4.Body.Instructions.Add(Instruction.Create(OpCodes.Call, AssemblyCSharp.MainModule.Import(GetDLCGridButtonsFake)));
                 processor4.Body.Instructions.Add(Instruction.Create(OpCodes.Ret));
+                
+                MethodDefinition Init = SteamManager.GetMethod("Init");
+                int i = Init.Body.Instructions.Count - 10;
+                ILProcessor iLProcessor = Init.Body.GetILProcessor();
+                iLProcessor.InsertBefore(Init.Body.Instructions[i], Instruction.Create(OpCodes.Call, AssemblyCSharp.MainModule.Import(SetKickstarterFlagsFake)));
             }
             catch (Exception ex)
             {
