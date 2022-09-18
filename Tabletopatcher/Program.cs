@@ -101,8 +101,9 @@ namespace Tabletopatcher
                 processor3.Body.Instructions.Clear();
                 processor3.Body.Instructions.Add(Instruction.Create(OpCodes.Call, AssemblyCSharp.MainModule.Import(GetOwnedDLCsFake)));
                 processor3.Body.Instructions.Add(Instruction.Create(OpCodes.Ret));
-                
-                
+
+                MethodDefinition LoadSaveFile = DLCManager.GetMethod("LoadSaveFile");
+                LoadSaveFile.IsPublic = true;
 
                 MethodDefinition Load = DLCManager.GetMethod("Load");
                 ILProcessor processor = Load.Body.GetILProcessor();

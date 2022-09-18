@@ -98,7 +98,8 @@ namespace DLCDreTaX
             for (int i = 0; i < dLCInfos.Count; i++)
             {
                 DLCWebsiteInfo info = dLCInfos[i];
-                UIGridMenu.GridButtonDLC item = new UIGridMenu.GridButtonDLC {
+                UIGridMenu.GridButtonDLC item = new UIGridMenu.GridButtonDLC 
+                {
                     Name = string.IsNullOrEmpty(info.DisplayName) ? info.Name : info.DisplayName,
                     LoadName = info.Name,
                     ThumbnailURL = info.ThumbnailURL,
@@ -109,14 +110,14 @@ namespace DLCDreTaX
                     Purchased = SteamManager.SubscribeDate(info.AppId),
                     ButtonColor = gridmenu.DLCColor,
                     BackgroundColor = gridmenu.DLCDarkColor,
-                    CloseMenu = closeMenu
+                    CloseMenu = closeMenu,
                 };
-                item.Tags.TryAdd<string>("dlc");
+                item.Tags.TryAddUnique("dlc");
                 list.Add(item);
             }
 
             // Reflection
-            Dictionary<string, System.Action<List<UIGridMenu.GridButtonDLC>>> DLCSorts = 
+            Dictionary<string, Action<List<UIGridMenu.GridButtonDLC>>> DLCSorts = 
                 (Dictionary<string, Action<List<UIGridMenu.GridButtonDLC>>>) GetInstanceField(typeof(UIGridMenuGames), gridmenu, "DLCSorts");
             
             // Didn't check if this changes
