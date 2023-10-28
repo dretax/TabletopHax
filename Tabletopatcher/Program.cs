@@ -131,6 +131,7 @@ namespace Tabletopatcher
                 MethodDefinition IsSubscribedApp = SteamManager.GetMethod("IsSubscribedApp");
                 ILProcessor processor6 = IsSubscribedApp.Body.GetILProcessor();
                 processor6.Body.Instructions.Clear();
+                processor6.Body.Instructions.Add(Instruction.Create(OpCodes.Ldarg_0));
                 processor6.Body.Instructions.Add(Instruction.Create(OpCodes.Call, AssemblyCSharp.MainModule.Import(IsSubscribedAppFake)));
                 processor6.Body.Instructions.Add(Instruction.Create(OpCodes.Ret));
 
