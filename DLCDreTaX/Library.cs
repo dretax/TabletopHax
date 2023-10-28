@@ -136,6 +136,11 @@ namespace DLCDreTaX
             SteamManager.bKickstarterGold = true;
             SteamManager.bKickstarterPointer = true;
         }
+
+        public static bool IsSubscribedApp(int AppId)
+        {
+            return true;
+        }
         
         private static object GetInstanceField(Type type, object instance, string fieldName)
         {

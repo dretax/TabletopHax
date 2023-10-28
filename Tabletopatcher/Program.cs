@@ -83,6 +83,7 @@ namespace Tabletopatcher
                 }
                 
                 MethodDefinition LoadFake = DLCDreTaX.MainModule.GetType("DLCDreTaX.Library").GetMethod("LoadFake");
+                MethodDefinition IsSubscribedAppFake = DLCDreTaX.MainModule.GetType("DLCDreTaX.Library").GetMethod("IsSubscribedApp");
                 MethodDefinition CanWeLoadThisDLCFake = DLCDreTaX.MainModule.GetType("DLCDreTaX.Library").GetMethod("CanWeLoadThisDLCFake");
                 MethodDefinition GetOwnedDLCsFake = DLCDreTaX.MainModule.GetType("DLCDreTaX.Library").GetMethod("GetOwnedDLCsFake");
                 MethodDefinition GetDLCGridButtonsFake = DLCDreTaX.MainModule.GetType("DLCDreTaX.Library").GetMethod("GetDLCGridButtonsFake");
@@ -127,6 +128,12 @@ namespace Tabletopatcher
                 processor4.Body.Instructions.Add(Instruction.Create(OpCodes.Call, AssemblyCSharp.MainModule.Import(GetDLCGridButtonsFake)));
                 processor4.Body.Instructions.Add(Instruction.Create(OpCodes.Ret));
                 
+                MethodDefinition IsSubscribedApp = SteamManager.GetMethod("IsSubscribedApp");
+                ILProcessor processor6 = IsSubscribedApp.Body.GetILProcessor();
+                processor6.Body.Instructions.Clear();
+                processor6.Body.Instructions.Add(Instruction.Create(OpCodes.Call, AssemblyCSharp.MainModule.Import(IsSubscribedAppFake)));
+                processor6.Body.Instructions.Add(Instruction.Create(OpCodes.Ret));
+
                 MethodDefinition Init = SteamManager.GetMethod("Init");
                 int i = Init.Body.Instructions.Count - 10;
                 ILProcessor iLProcessor = Init.Body.GetILProcessor();
